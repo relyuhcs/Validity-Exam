@@ -65,6 +65,5 @@ describe('Auto Loan Calculator Test', function () {
 
 		//Confirms page loads
 		cy.url().should('eq', 'https://www.bankrate.com/loans/auto-loans/rates/')
-
 	})
 })
